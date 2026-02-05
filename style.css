@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.heading{
+    
+    height: 2rem;
+    background-color: cadetblue;
+    color: black;
+    border: 1px;
+    text-align: center;
+
+}
+.container{
+   
+    height: 50vh;
+    display: flex;  
+    justify-content: center;
+}
+.wrapper1
+{
+    width: 360px; /* width that fits 3 boxes with gap */
+    display: flex;
+    flex-wrap: wrap; /* allow boxes to wrap to next line */
+    justify-content: center;
+    gap: 10px; /* space between boxes */
+}
+.container2
+{
+    
+    display: flex;
+    justify-content: center;
+   
+}
+
+.wrapper2
+{
+    width: 180px; /* width that fits 3 boxes with gap */
+    display: flex;
+    flex-wrap: wrap; /* allow boxes to wrap to next line */
+    justify-content: center;
+    gap: 10px; /* space between boxes */
+}
+.box{
+    height:60px;
+    width: 60px;
+    border:none;
+    border-radius: 50%; 
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.score{
+    height: 15px;
+    width: 60px;
+    border:none;
+    border-radius: 50%; 
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+#rock{
+    background-image: url(image/816-8162833_rock-paper-scissors-circle.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+}
+#paper{
+    background-image: url(image/535-5351099_rock-paper-scissors-rock-paper-scissors-icons-png.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+
+}
+#scissor{
+    background-image: url(image/772-7721702_rock-paper-scissors-png-transparent-png.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+
+}
+.box:hover
+{
+    transform: scale(1.1);
+    
+}
+
+.msg-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+    background-color: black;
+    color: white;
+}
